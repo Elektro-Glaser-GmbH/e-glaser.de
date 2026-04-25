@@ -34,7 +34,14 @@ Kontakt
 Nutzen Sie gerne unser Kontaktformular – wir melden uns in der Regel innerhalb eines Werktages:
 
 ```{=html}
-<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" style="max-width:560px;">
+<form action="https://api.staticforms.dev/submit" method="POST" style="max-width:560px;">
+  <!-- StaticForms API-Key (https://www.staticforms.dev) -->
+  <input type="hidden" name="apiKey" value="YOUR_STATICFORMS_API_KEY">
+  <!-- Weiterleitung nach erfolgreichem Absenden -->
+  <input type="hidden" name="redirectTo" value="https://elektro-glaser-gmbh.github.io/e-glaser.de/danke.html">
+  <!-- Honeypot-Feld gegen Spam (muss leer bleiben) -->
+  <input type="text" name="honeypot" style="display:none" tabindex="-1" autocomplete="off">
+
   <div style="margin-bottom:1rem;">
     <label for="name" style="display:block;font-weight:600;margin-bottom:0.3rem;">Name *</label>
     <input type="text" id="name" name="name" required
@@ -62,14 +69,14 @@ Nutzen Sie gerne unser Kontaktformular – wir melden uns in der Regel innerhalb
       style="width:100%;padding:0.6rem 0.8rem;border:1px solid #cbd5e1;border-radius:0.4rem;font-size:1rem;resize:vertical;"></textarea>
   </div>
   <button type="submit"
-    style="background:#f59e0b;color:#1e3a5f;border:none;padding:0.8rem 2rem;font-size:1rem;font-weight:600;border-radius:0.5rem;cursor:pointer;">
+    style="background:#eaaf03;color:#1a1200;border:none;padding:0.8rem 2rem;font-size:1rem;font-weight:600;border-radius:0.375rem;cursor:pointer;font-family:'Quicksand',sans-serif;text-transform:uppercase;letter-spacing:0.05em;">
     Nachricht senden
   </button>
 </form>
 ```
 
 ::: {.callout-note}
-Das Formular nutzt [Formspree](https://formspree.io) als Backend. Ersetze `YOUR_FORM_ID` in `contact.qmd` mit deiner Formspree-Form-ID, oder verwende einen alternativen Dienst.
+Das Formular nutzt [Static Forms](https://www.staticforms.dev) als Backend. Ersetze `YOUR_STATICFORMS_API_KEY` in `contact.qmd` mit deinem API-Key aus dem [Static Forms Dashboard](https://www.staticforms.dev/dashboard).
 :::
 
 ---

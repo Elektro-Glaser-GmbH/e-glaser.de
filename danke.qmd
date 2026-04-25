@@ -1,0 +1,19 @@
+---
+title: "Vielen Dank!"
+description: "Ihre Nachricht wurde erfolgreich übermittelt."
+toc: false
+---
+
+::: {style="text-align:center; padding: 4rem 1rem;"}
+
+## ✅ Nachricht erfolgreich gesendet!
+
+Vielen Dank für Ihre Anfrage. Wir haben Ihre Nachricht erhalten und melden uns in der Regel **innerhalb eines Werktages** bei Ihnen.
+
+Bei dringenden Anliegen erreichen Sie uns direkt:
+
+📞 [+49 9131 911 6733](tel:+4991319116733) · ✉️ [info@e-glaser.de](mailto:info@e-glaser.de)
+
+[Zurück zur Startseite](index.qmd){.btn-hero style="margin-top:1.5rem;display:inline-block;"}
+
+:::
