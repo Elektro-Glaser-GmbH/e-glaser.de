@@ -76,7 +76,7 @@ Nutzen Sie gerne unser Kontaktformular – wir melden uns in der Regel innerhalb
 ```
 
 ::: {.callout-note}
-Das Formular nutzt [Static Forms](https://www.staticforms.dev) als Backend. Ersetze `YOUR_STATICFORMS_API_KEY` in `contact.qmd` mit deinem API-Key aus dem [Static Forms Dashboard](https://www.staticforms.dev/dashboard).
+Das Formular nutzt [Static Forms](https://www.staticforms.dev) als Backend. Der API-Key wird automatisch über das GitHub Actions Secret `STATIC_FORMS_KEY` eingefügt.
 :::
 
 ---
