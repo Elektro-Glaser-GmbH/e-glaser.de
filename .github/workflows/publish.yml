@@ -31,7 +31,9 @@ jobs:
           version: "1.6.40"
 
       - name: Inject StaticForms API key
-        run: sed -i "s/YOUR_STATICFORMS_API_KEY/${{ secrets.STATIC_FORMS_KEY }}/g" contact.qmd
+        env:
+          STATIC_FORMS_KEY: ${{ secrets.STATIC_FORMS_KEY }}
+        run: sed -i "s|YOUR_STATICFORMS_API_KEY|${STATIC_FORMS_KEY}|g" contact.qmd
 
       - name: Render Quarto site
         run: quarto render
