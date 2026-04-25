@@ -1,0 +1,88 @@
+---
+title: "Endlich wird auch meine Welt ein wenig smarter..."
+description: "Montag, der 7.7.2025 – mein Smart Meter wird eingebaut. Ein persönlicher Erfahrungsbericht über den Einbau, was iMSys und mME bedeuten, und warum Deutschland ewig braucht."
+date: "2025-07-08"
+categories: [Smart Meter, Energiewende, Erfahrungsbericht]
+author: "Daniel Glaser"
+---
+
+## ✍️ Willkommen in der Zukunft (oder auf dem Weg dahin)
+
+Montag, der 7.7.2025. Mein Smart Meter wird eingebaut. Ja, wirklich. 2025. Ich gehöre zu den sogenannten Pflichteinbauten. Kein Wunder, da mein Stromverbrauch mit 2 Haushalten hinter dem Zähler, E-Auto und Wärmepumpe den 6.000 kWh-Rahmen locker sprengt.
+
+Angekündigt wurde das Ganze bereits im Januar mit den Worten „in den nächsten Monaten". Damals habe ich noch geschmunzelt. Inzwischen ist Sommer, das Jahr ist zur Hälfte rum – und mein technikbegeistertes Herz hatte fast schon resigniert.
+
+Aber gestern war tatsächlich der Tag, an dem mein Stromzähler endlich ein kleines bisschen intelligenter wird. Ich bin aufgeregt wie ein Kind an Weihnachten – und gleichzeitig ein wenig fassungslos, dass wir in Deutschland für sowas fast ein Jahrzehnt länger brauchen als der Rest der Welt.
+
+Dabei ist das hier eigentlich nur der erste Schritt. Denn für *echte* Smartness fehlt ja noch die Steuerbox – das Gerät, das irgendwann mal Lasten dynamisch steuern, Tarife berücksichtigen und mit dem Netzbetreiber sprechen soll. Bis dahin ist das hier eher ein smarter Zähler mit starkem Hang zur Introvertiertheit, auch wenn er die Grundlage dafür ist, dass Tibber nun tatsächlich stundengenau im Bilanzkreis abrechnen kann.
+
+---
+
+## ⚡️ Was ist eigentlich ein Smart Meter?
+
+Ein „Smart Meter" klingt erstmal nach etwas, das dein Zuhause klüger macht – wie ein sprechender Thermostat oder ein Kühlschrank, der selbst Joghurt bestellt. Tatsächlich ist es im Kern aber erstmal nur ein digitaler Stromzähler. Also: kein WLAN-fähiges Wunderding, keine Alexa für die Steckdose, sondern… ein Kasten mit Display und Modem.
+
+### Was macht ihn „smart"?
+
+Anders als die alten Ferraris-Zähler mit drehender Scheibe kann ein Smart Meter den Stromverbrauch **zeitgenau aufzeichnen** und **automatisch übertragen**. Das heißt: Keine Ablesetermine mehr, keine Zettel im Briefkasten, keine kryptischen Zahlenreihen auf schlecht belichteten Fotos.
+
+### Und was kann ich davon sehen?
+
+Im besten Fall: erstmal nichts. Der Smart Meter sendet Daten an den Messstellenbetreiber. Bei Tibber kann man die Daten des Vortages dann stundengenau sehen – und bald auch viertelstundengenau. Hat man einen Fixpreistarif, sieht man zunächst nichts.
+
+Der Smart Meter ist also gewissermaßen wie ein Smartphone **ohne Bildschirm, Apps und Internet**. Es ist zwar digital – aber der eigentliche Nutzen? Für den Stromkunden ändert sich zunächst nichts, für den Energielieferanten aber die ganze Welt.
+
+---
+
+## 🔍 Moderne Messeinrichtung ≠ Smart Meter ≠ intelligentes Messsystem
+
+Wer sich ein bisschen mit der Materie beschäftigt, stolpert schnell über die Begriffe **„moderne Messeinrichtung"** (mME) und **„intelligentes Messsystem"** (iMSys). Das sind keine Marketing-Buzzwords, sondern gesetzlich definierte Kategorien.
+
+#### Moderne Messeinrichtung (mME)
+
+Das ist der Einstieg in die digitale Welt der Stromzähler. Eine mME ist ein digitaler Stromzähler **ohne** Kommunikationsmodul. Er kann:
+
+- den Stromverbrauch elektronisch erfassen,
+- Verbrauchswerte der letzten 24 Monate am Display anzeigen,
+- das alles aber **nicht** von selbst übertragen.
+
+Er ist quasi das digitale Äquivalent zum klassischen Ferraris-Zähler – hübscher, genauer, aber stumm wie ein Fisch. Ein wichtiger Punkt: Die mME hat keinen gesetzlich gültigen Zeitstempel. Ohne genaue, eichrechtskonforme Zeit ist es unmöglich, einen eichrechtskonformen Verbrauchswert zu übermitteln.
+
+#### Smart Meter
+
+Im allgemeinen Sprachgebrauch ist jeder digitale Zähler ein „Smart Meter". Streng genommen ist das irreführend. In Deutschland ist mit „Smart Meter" häufig schon die **moderne Messeinrichtung** gemeint, obwohl sie gar nicht kommunizieren kann. Smart ist daran also maximal das LC-Display.
+
+#### Intelligentes Messsystem (iMSys)
+
+Das ist das, worauf wir alle warten. Ein iMSys besteht aus:
+
+- einer modernen Messeinrichtung **plus**
+- einem **Smart Meter Gateway (SMGW)**, also einer zertifizierten Kommunikationsschnittstelle.
+
+Dieses Gateway kann:
+
+- Messdaten sicher und eichrechtskonform übertragen (z. B. an Netzbetreiber oder Portal),
+- Steuerbefehle empfangen (z. B. „Wallbox runterregeln"),
+- sich in eine smarte Steuerlandschaft einfügen, wie sie in § 14a EnWG vorgesehen ist.
+
+---
+
+## 🔧 Der Einbau in meine Zählersäule
+
+Tja, hier wollte ich schöne Bilder vom Einbau posten – aber es scheint, als hätten die Ninja-Monteure bei den Stadtwerken Urlaub gemacht und ihre besonders geräuschlosen Kollegen geschickt. Da mein Zähler in einer Säule vor dem Haus untergebracht ist und diese mit zwei Schlüsseln geöffnet werden kann (sowohl ich als auch die Stadtwerke besitzen einen), ging das völlig ohne mein Zutun. Nicht einmal eine kurze Unterbrechung der Stromversorgung war wahrnehmbar (dank BKE – Befestigungs- und Kontaktiereinrichtung).
+
+Angekündigt hatten sich die ESTW für 8:00–15:00 Uhr. Um 10:20 Uhr bekam ich die erste Meldung, dass Tibber keine Daten mehr empfängt. Klar – den Tibber-Pulse-Lesekopf hatten die Monteure zwar wieder an die optische Schnittstelle angeheftet, aber der neue Zähler war noch nicht freigeschaltet.
+
+Auch nach der Freischaltung kommt natürlich – nichts. Die Zählernummer hat sich geändert und nun warte ich darauf, dass sich bald was in der Tibber-App tut.
+
+---
+
+## 🔮 Wie geht's weiter?
+
+Der erste Schritt ist getan. Die PIN für die Freischaltung habe ich mir gleich besorgt, den Zähler freigeschaltet und den Datenfluss überprüft. Nun warte ich auf Tibbers Backend-Umstellung.
+
+Außerdem habe ich mit einem netten Techniker unserer Stadtwerke telefoniert, wann denn mit der Steuerbox zu rechnen ist. Etwas frustriert meinte er: „2026 müssen wir ja… das wird harte Arbeit."
+
+Die Stadtwerke kämpfen also an vielen Ecken und bekommen vom Gesetzgeber ständig neue Aufgaben übertragen. Einerseits schön, einen lokalen Versorger zu haben – andererseits ist diese Kleinteiligkeit nicht unbedingt sehr effizient.
+
+*Fortsetzung folgt!*

@@ -1,0 +1,87 @@
+---
+title: "Kontakt"
+description: "Nehmen Sie Kontakt mit Elektro-Glaser auf – wir freuen uns auf Ihre Anfrage."
+toc: false
+---
+
+::: {.section-label}
+Kontakt
+:::
+
+# Nimm Kontakt mit uns auf
+
+---
+
+::: {.contact-box}
+::: {.contact-item}
+📞 **Telefon:** [+49 9131 911 6733](tel:+4991319116733)
+:::
+::: {.contact-item}
+✉️ **E-Mail:** [info@e-glaser.de](mailto:info@e-glaser.de)
+:::
+::: {.contact-item}
+📍 **Adresse:** Birkenweg 12, 91058 Erlangen
+:::
+::: {.contact-item}
+🌐 **Web:** [www.e-glaser.de](https://www.e-glaser.de)
+:::
+:::
+
+---
+
+## Schreiben Sie uns
+
+Nutzen Sie gerne unser Kontaktformular – wir melden uns in der Regel innerhalb eines Werktages:
+
+```{=html}
+<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" style="max-width:560px;">
+  <div style="margin-bottom:1rem;">
+    <label for="name" style="display:block;font-weight:600;margin-bottom:0.3rem;">Name *</label>
+    <input type="text" id="name" name="name" required
+      style="width:100%;padding:0.6rem 0.8rem;border:1px solid #cbd5e1;border-radius:0.4rem;font-size:1rem;">
+  </div>
+  <div style="margin-bottom:1rem;">
+    <label for="email" style="display:block;font-weight:600;margin-bottom:0.3rem;">E-Mail *</label>
+    <input type="email" id="email" name="email" required
+      style="width:100%;padding:0.6rem 0.8rem;border:1px solid #cbd5e1;border-radius:0.4rem;font-size:1rem;">
+  </div>
+  <div style="margin-bottom:1rem;">
+    <label for="phone" style="display:block;font-weight:600;margin-bottom:0.3rem;">Telefon</label>
+    <input type="tel" id="phone" name="phone"
+      style="width:100%;padding:0.6rem 0.8rem;border:1px solid #cbd5e1;border-radius:0.4rem;font-size:1rem;">
+  </div>
+  <div style="margin-bottom:1rem;">
+    <label for="subject" style="display:block;font-weight:600;margin-bottom:0.3rem;">Betreff</label>
+    <input type="text" id="subject" name="subject"
+      style="width:100%;padding:0.6rem 0.8rem;border:1px solid #cbd5e1;border-radius:0.4rem;font-size:1rem;"
+      placeholder="z. B. Anfrage Wallbox, PV-Anlage, ...">
+  </div>
+  <div style="margin-bottom:1.5rem;">
+    <label for="message" style="display:block;font-weight:600;margin-bottom:0.3rem;">Nachricht *</label>
+    <textarea id="message" name="message" rows="6" required
+      style="width:100%;padding:0.6rem 0.8rem;border:1px solid #cbd5e1;border-radius:0.4rem;font-size:1rem;resize:vertical;"></textarea>
+  </div>
+  <button type="submit"
+    style="background:#f59e0b;color:#1e3a5f;border:none;padding:0.8rem 2rem;font-size:1rem;font-weight:600;border-radius:0.5rem;cursor:pointer;">
+    Nachricht senden
+  </button>
+</form>
+```
+
+::: {.callout-note}
+Das Formular nutzt [Formspree](https://formspree.io) als Backend. Ersetze `YOUR_FORM_ID` in `contact.qmd` mit deiner Formspree-Form-ID, oder verwende einen alternativen Dienst.
+:::
+
+---
+
+## Anfahrt
+
+<iframe
+  src="https://www.openstreetmap.org/export/embed.html?bbox=10.97%2C49.58%2C11.02%2C49.62&layer=mapnik&marker=49.5986%2C10.9925"
+  style="width:100%;height:360px;border:1px solid #e2e8f0;border-radius:0.5rem;"
+  allowfullscreen
+  loading="lazy"
+  title="Karte: Elektro-Glaser, Birkenweg 12, Erlangen">
+</iframe>
+
+*Birkenweg 12 · 91058 Erlangen*

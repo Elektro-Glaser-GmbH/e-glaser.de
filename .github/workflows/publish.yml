@@ -1,0 +1,65 @@
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+name: Build & Deploy to GitHub Pages
+
+# Sets permissions of the GITHUB_TOKEN
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment for main; PRs run independently
+concurrency:
+  group: "pages-${{ github.ref }}"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: "1.6.40"
+
+      - name: Render Quarto site
+        run: quarto render
+        env:
+          QUARTO_DENO_EXTRA_OPTIONS: "--cached-only"
+
+      - name: Upload Pages artifact
+        # Only upload artifact for main branch (actual deploy)
+        # For PRs, the _site folder is available as a build artifact
+        if: github.ref == 'refs/heads/main'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "_site"
+
+      - name: Upload PR preview artifact
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: "pr-preview-${{ github.event.pull_request.number }}"
+          path: "_site"
+          retention-days: 7
+
+  deploy:
+    # Only deploy on push to main
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
