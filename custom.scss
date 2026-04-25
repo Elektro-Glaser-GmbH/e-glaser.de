@@ -5,8 +5,8 @@ $body-bg: #fef9e3;      /* Sanftes Hellgelb – Seitenhintergrund */
 $body-color: #1a1200;   /* Dunkles Warmbraun – guter Kontrast auf Hellgelb */
 $headings-color: #1a1200;
 $link-color: #b07d00;   /* Dunkles Amber – besserer Kontrast auf Hellgelb */
-$navbar-bg: $secondary;
-$navbar-fg: #ffffff;
+$navbar-bg: #fcd114;    /* Sattes Marken-Gelb – Titelleiste */
+$navbar-fg: #1a1200;    /* Dunkles Warmbraun – Kontrast auf Gelb */
 $footer-bg: #0F172A;
 $footer-fg: #e2e8f0;
 $font-family-sans-serif: "Inter", system-ui, -apple-system, sans-serif;
@@ -209,13 +209,20 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Navbar */
 .navbar {
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+}
+
+/* Navbar-Links auf dunklem Warmton */
+.navbar .nav-link {
+  color: #1a1200 !important;
+  font-weight: 600;
+}
+.navbar .nav-link:hover {
+  color: #6b4c00 !important;
 }
 
 .navbar-brand img {
   height: 36px;
-  /* Logo-SVG auf dunklem Navbar-Hintergrund → vollständig weiß rendern */
-  filter: brightness(0) invert(1);
 }
 
 /* Footer */
