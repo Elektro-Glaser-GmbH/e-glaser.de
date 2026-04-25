@@ -7,7 +7,6 @@ website:
   description: "Ihr Partner für Erneuerbare Energien, Smart Home und Elektromobilität in Erlangen"
   site-url: "https://elektro-glaser-gmbh.github.io/e-glaser.de"
   favicon: "assets/favicon.ico"
-  lang: de
 
   navbar:
     logo: "assets/logo.svg"
@@ -47,6 +46,7 @@ format:
       light: [flatly, custom.scss]
     css: custom.scss
     toc: false
+    lang: de
     link-external-newwindow: true
     smooth-scroll: true
     include-in-header:
