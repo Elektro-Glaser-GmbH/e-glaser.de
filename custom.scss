@@ -1,10 +1,10 @@
 /*-- scss:defaults --*/
 $primary: #eaaf03;      /* Amber/Gold – Elektro-Glaser Markenfarbe */
 $secondary: #0F172A;    /* Sehr dunkles Navy */
-$body-bg: #ffffff;
-$body-color: #343434;
-$headings-color: $secondary;
-$link-color: $primary;
+$body-bg: #fef9e3;      /* Sanftes Hellgelb – Seitenhintergrund */
+$body-color: #1a1200;   /* Dunkles Warmbraun – guter Kontrast auf Hellgelb */
+$headings-color: #1a1200;
+$link-color: #b07d00;   /* Dunkles Amber – besserer Kontrast auf Hellgelb */
 $navbar-bg: $secondary;
 $navbar-fg: #ffffff;
 $footer-bg: #0F172A;
@@ -43,6 +43,9 @@ h1, h2, h3, h4, h5, h6 {
   padding: 5rem 2rem;
   margin-bottom: 3rem;
   border-radius: 0;
+
+  /* Headings explizit weiß – überschreibt $headings-color auf dunklem Bg */
+  h1, h2, h3, h4, h5, h6 { color: #ffffff; }
 
   h1 {
     font-size: 2.8rem;
@@ -101,8 +104,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .service-card {
-  background: #f8fafc;
-  border: 1px solid #e2e8f0;
+  background: #ffffff;
+  border: 1px solid #f0e0a0;
   border-radius: $border-radius;
   padding: 1.8rem;
   transition: box-shadow 0.2s, transform 0.1s;
@@ -144,6 +147,11 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 1rem;
     font-size: 1.1rem;
   }
+}
+
+/* Content-Bereich auf Hellgelb: explizit weißer Hintergrund nur für Cards */
+.quarto-title-meta, .quarto-title {
+  background: transparent;
 }
 
 /* USP row */
@@ -188,7 +196,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Blog cards */
 .quarto-listing-default .quarto-post {
-  border: 1px solid #e2e8f0;
+  background: #ffffff;
+  border: 1px solid #f0e0a0;
   border-radius: $border-radius;
   padding: 1.5rem;
   transition: box-shadow 0.2s;
@@ -205,6 +214,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-brand img {
   height: 36px;
+  /* Logo-SVG auf dunklem Navbar-Hintergrund → vollständig weiß rendern */
+  filter: brightness(0) invert(1);
 }
 
 /* Footer */
