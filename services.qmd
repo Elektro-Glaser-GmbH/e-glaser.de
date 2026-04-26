@@ -82,6 +82,50 @@ Elektrischer Anschluss von Wärmepumpen, Prüfung des Hausanschlusses auf Eignun
 
 ---
 
+## Unsere Schwerpunkte im Detail
+
+::: {.feature-row}
+::: {.feature-img}
+![Photovoltaik und erneuerbare Energien](assets/img/smart-home.jpg)
+:::
+::: {.feature-text}
+### Erneuerbare Energien
+Von der kleinen Stecker-Solar-Anlage bis zur großen Dach-PV mit Batteriespeicher – wir kennen alle Förderprogramme und begleiten Sie durch den gesamten Prozess: Planung, Anmeldung, Montage, Inbetriebnahme.
+:::
+:::
+
+::: {.feature-row .reverse}
+::: {.feature-img}
+![Wallbox und E-Mobilität](assets/img/solar-roof.jpg)
+:::
+::: {.feature-text}
+### Elektromobilität & Wallbox
+Wir prüfen Ihren Hausanschluss, empfehlen die passende Ladestation und übernehmen Montage sowie Anmeldung beim Netzbetreiber. Auf Wunsch mit Lastmanagement und PV-Überschussladen.
+:::
+:::
+
+::: {.feature-row}
+::: {.feature-img}
+![Sicherungskasten und Elektroinstallation](assets/img/electrician.jpg)
+:::
+::: {.feature-text}
+### Elektroinstallation
+Ob einzelne Steckdose, neue Unterverteilung oder komplette Neuinstallation – wir erledigen klassische Elektroarbeiten schnell und sauber. Auch für Arbeiten, für die andere Elektriker zu selten Zeit haben.
+:::
+:::
+
+::: {.feature-row .reverse}
+::: {.feature-img}
+![Smart Home Lösungen](assets/img/hero.jpg)
+:::
+::: {.feature-text}
+### Smart Home & Automatisierung
+Wir gestalten Ihr Zuhause smarter – mit modernen Lösungen für Lichtsteuerung, Energiemonitoring und Automatisierung. Wir sagen Ihnen ehrlich, was wirklich Sinn ergibt und was eher Spielerei bleibt.
+:::
+:::
+
+---
+
 ## Nützliche Tools
 
 ::: {.callout-tip}

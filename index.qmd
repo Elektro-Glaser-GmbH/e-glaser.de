@@ -70,6 +70,18 @@ Ob neue Steckdose, Sicherungskasten oder komplette Unterverteilung – schnell, 
 
 [Alle Dienstleistungen →](services.qmd){.btn .btn-outline-primary style="margin:1rem 0;"}
 
+::: {.feature-row}
+::: {.feature-img}
+![Photovoltaik und erneuerbare Energien](assets/img/smart-home.jpg)
+:::
+::: {.feature-text}
+### Erneuerbare Energien – von klein bis groß
+Ob Balkonkraftwerk, Dach-PV mit Speicher oder Wärmepumpenanschluss: Wir begleiten Sie von der ersten Frage bis zur Inbetriebnahme. Inhabergeführt, herstellerunabhängig, ehrlich.
+
+[Zu den Leistungen →](services.qmd){.btn .btn-warning style="margin-top:0.8rem;color:#1a1200;font-weight:600;"}
+:::
+:::
+
 ---
 
 ## Warum Elektro-Glaser? {.text-center style="margin-bottom:0.3rem;"}

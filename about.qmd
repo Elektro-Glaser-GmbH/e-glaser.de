@@ -24,6 +24,26 @@ Egal ob Wallbox, Balkonsolar mit oder ohne Speicher, Wärmepumpe oder große PV-
 
 Wir freuen uns auch, wenn Sie selbst einen Teil der Arbeit übernehmen möchten und wir uns auf das beschränken, was von einem Fachunternehmen durchgeführt werden muss.
 
+::: {.feature-row}
+::: {.feature-img}
+![Nachhaltige Elektrotechnik – Licht und Energie](assets/img/hero.jpg)
+:::
+::: {.feature-text}
+### Technik, die wirklich passt
+Wir sind kein Konzern, sondern ein kleines Team mit echtem Interesse an Ihrer Situation. Was bei Ihnen sinnvoll ist – und was nicht – sagen wir Ihnen ehrlich. Auch wenn das mal bedeutet, dass wir weniger verdienen.
+:::
+:::
+
+::: {.feature-row .reverse}
+::: {.feature-img}
+![E-Auto an der Wallbox](assets/img/solar-roof.jpg)
+:::
+::: {.feature-text}
+### Energiewende im Alltag
+Von der Wallbox in der Garage bis zur PV-Anlage auf dem Dach – wir machen die Energiewende greifbar und umsetzbar. Für Eigenheimbesitzer, Mieter und Unternehmen.
+:::
+:::
+
 ---
 
 ## Unsere Geschichte
