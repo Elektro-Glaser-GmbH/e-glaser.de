@@ -54,6 +54,8 @@ jobs:
         run: sed -i "s|YOUR_STATICFORMS_API_KEY|${STATIC_FORMS_KEY}|g" pages/contact.vue
 
       - name: Generate static site
+        env:
+          NUXT_APP_BASE_URL: /e-glaser.de/
         run: npm run generate
 
       - name: Upload Pages artifact
