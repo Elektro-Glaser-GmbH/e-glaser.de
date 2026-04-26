@@ -12,8 +12,8 @@ useSeoMeta({
     <!-- Hero -->
     <section class="hero">
       <div class="container">
-        <span class="hero-badge">Ihr Partner in Erlangen &amp; Umgebung</span>
-        <h1>Strom mit Verstand.</h1>
+        <span class="section-label">Ihr Partner in Erlangen &amp; Umgebung</span>
+        <h1>Strom mit <span class="accent">Verstand.</span></h1>
         <p class="hero-sub">Erneuerbare Energien · Smart Home · Elektromobilität</p>
         <p class="lead">
           Wir sind ein inhabergeführter Elektrobetrieb aus Erlangen – mit Leidenschaft für zukunftsfähige Technik,
