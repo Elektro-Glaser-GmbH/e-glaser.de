@@ -52,7 +52,7 @@ const form = reactive({
     >
       <!-- StaticForms API-Key -->
       <input type="hidden" name="apiKey" value="YOUR_STATICFORMS_API_KEY" />
-      <input type="hidden" name="redirectTo" value="https://elektro-glaser-gmbh.github.io/e-glaser.de/danke" />
+      <input type="hidden" name="redirectTo" value="https://elektro-glaser-gmbh.github.io/danke" />
       <!-- Honeypot gegen Spam -->
       <input type="text" name="honeypot" style="display:none" tabindex="-1" autocomplete="off" />
 
