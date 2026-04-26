@@ -23,10 +23,22 @@ const form = reactive({
     <hr />
 
     <div class="contact-box">
-      <div class="contact-item">📞 <strong>Telefon:</strong>&nbsp;<a href="tel:+4991319116733">+49 9131 911 6733</a></div>
-      <div class="contact-item">✉️ <strong>E-Mail:</strong>&nbsp;<a href="mailto:info@e-glaser.de">info@e-glaser.de</a></div>
-      <div class="contact-item">📍 <strong>Adresse:</strong>&nbsp;Birkenweg 12, 91058 Erlangen</div>
-      <div class="contact-item">🌐 <strong>Web:</strong>&nbsp;<a href="https://www.e-glaser.de" target="_blank" rel="noopener">www.e-glaser.de</a></div>
+      <div class="contact-item">
+        <div class="contact-item-label">📞 Telefon</div>
+        <div class="contact-item-value"><a href="tel:+4991319116733">+49 9131 911 6733</a></div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item-label">✉️ E-Mail</div>
+        <div class="contact-item-value"><a href="mailto:info@e-glaser.de">info@e-glaser.de</a></div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item-label">📍 Adresse</div>
+        <div class="contact-item-value">Birkenweg 12, 91058 Erlangen</div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item-label">🌐 Web</div>
+        <div class="contact-item-value"><a href="https://www.e-glaser.de" target="_blank" rel="noopener">www.e-glaser.de</a></div>
+      </div>
     </div>
 
     <hr />
