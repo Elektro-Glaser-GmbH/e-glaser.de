@@ -520,7 +520,8 @@ strong { color: $secondary; font-weight: 600; }
   margin-block: 2rem;
 
   a { color: $primary; font-weight: 600;
-      &:hover { color: lighten($primary, 12%); text-decoration: none; } }
+      &:hover { color: #f5cd52; text-decoration: none; } }
+  strong { color: inherit; }
 }
 
 .contact-item {

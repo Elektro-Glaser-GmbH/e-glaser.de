@@ -4,12 +4,14 @@ useSeoMeta({
   description: 'Tipps, Einblicke und Neuigkeiten rund um Erneuerbare Energien, Smart Home und Elektrotechnik von Elektro-Glaser.',
 })
 
-const { data: rawPosts } = await useAsyncData('blog-posts', () =>
-  queryContent('blog').find()
-)
-const posts = computed(() =>
-  [...(rawPosts.value ?? [])].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
-)
+const { data: posts } = await useAsyncData('blog-posts', async () => {
+  const items = await queryContent('blog').find()
+  return items.sort((a: any, b: any) => {
+    const da = new Date(a.date).getTime() || 0
+    const db = new Date(b.date).getTime() || 0
+    return db - da
+  })
+})
 </script>
 
 <template>
