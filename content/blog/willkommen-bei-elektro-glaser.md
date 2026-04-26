@@ -1,8 +1,8 @@
 ---
-title: "⚡ Willkommen bei Elektro-Glaser – Wir elektrisieren Erlangen und Umgebung!"
+title: "Willkommen bei Elektro-Glaser – Wir elektrisieren Erlangen und Umgebung!"
 description: "Wir sind ein inhabergeführter Elektrobetrieb aus Erlangen – mit Leidenschaft für zukunftsfähige Technik, klare Kommunikation und nachhaltige Lösungen."
-date: "2025-06-28"
-categories: [Allgemein, Über uns]
+date: 2025-06-28
+categories: ["Allgemein", "Über uns"]
 author: "Daniel Glaser"
 ---
 
@@ -14,20 +14,20 @@ Ob **erneuerbare Energien**, **Smart Home**, **Wallbox** oder die gute alte Stec
 
 ---
 
-### 🔌 Was erwartet dich hier?
+### Was erwartet dich hier?
 
 In diesem Blog schreiben wir über Themen, die uns und unsere Kund\*innen bewegen:
 
-- ⚡ **Erneuerbare Energien** – von der PV-Anlage auf dem Dach bis zur Eigenverbrauchsoptimierung
-- 🏠 **Smart Home & Automatisierung** – was wirklich sinnvoll ist (und was eher Spielerei)
-- 🚗 **Elektromobilität** – Wallbox, Netzanschluss, Lastmanagement & Co.
-- 🧰 **Tipps & Einblicke aus dem Alltag** – was läuft auf der Baustelle, was plant die Politik, wo lauern Fallstricke?
+- **Erneuerbare Energien** – von der PV-Anlage auf dem Dach bis zur Eigenverbrauchsoptimierung
+- **Smart Home & Automatisierung** – was wirklich sinnvoll ist (und was eher Spielerei)
+- **Elektromobilität** – Wallbox, Netzanschluss, Lastmanagement & Co.
+- **Tipps & Einblicke aus dem Alltag** – was läuft auf der Baustelle, was plant die Politik, wo lauern Fallstricke?
 
-Wir zeigen dir die Möglichkeiten moderner Elektrotechnik – **verständlich, ehrlich und mit einem Augenzwinkern**. Und ja, wir dürfen auch mal fluchen, wenn Lobbyisten uns ausbremsen wollen. 😉
+Wir zeigen dir die Möglichkeiten moderner Elektrotechnik – **verständlich, ehrlich und mit einem Augenzwinkern**.
 
 ---
 
-### 🌍 Warum wir diesen Blog starten
+### Warum wir diesen Blog starten
 
 Weil sich **unsere Branche verändert.**  
 Weil die Energiewende nicht nur ein politisches Ziel, sondern **unser tägliches Handwerk** ist.  
@@ -37,18 +37,16 @@ Wir wollen **aufklären statt überreden**, **verstehen statt nur verkaufen**, u
 
 ---
 
-### 🛠️ Wer steckt dahinter?
+### Wer steckt dahinter?
 
-Wir sind kein Konzern, sondern ein echtes Team kleiner Unternehmer aus **Technikbegeisterten**, **Machern**, **Vordenkern** – und manchmal auch Kaffeejunkies.  
+Wir sind kein Konzern, sondern ein echtes Team kleiner Unternehmer aus **Technikbegeisterten**, **Machern**, **Vordenkern**.  
 Geführt wird Elektro-Glaser von Daniel Glaser, Elektroingenieur und Familienvater mit einer Schwäche für **Embedded-Systeme und ehrliche Handwerkskunst.**
 
 ---
 
-### 🚀 Und jetzt?
+### Und jetzt?
 
 In den kommenden Wochen findest du hier regelmäßig neue Beiträge – kurz, verständlich, praxisnah.  
-Bis wir uns für Dich einsetzen können, musst Du aber noch ein wenig warten. Zwar darf ich jetzt schon formal geschäftstätig sein (Sachkundenachweis erbracht, GmbH gegründet, Konto eingerichtet), aber bis ich wirklich was bei Dir klemmen darf, muss ich noch ein paar bürokratische Formalitäten erledigen. Welche Hürden ich bisher schon nehmen musste, erzähle ich in den kommenden Beiträgen.
-
 Wenn du Themenvorschläge hast, Fragen loswerden willst oder ein Projekt planst: **Meld dich gerne.**
 
 Danke für dein Interesse – und bleib gespannt!
