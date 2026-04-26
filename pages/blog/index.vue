@@ -4,10 +4,11 @@ useSeoMeta({
   description: 'Tipps, Einblicke und Neuigkeiten rund um Erneuerbare Energien, Smart Home und Elektrotechnik von Elektro-Glaser.',
 })
 
-const { data: posts } = await useAsyncData('blog-posts', () =>
-  queryContent('blog')
-    .sort({ date: -1, $numeric: true })
-    .find()
+const { data: rawPosts } = await useAsyncData('blog-posts', () =>
+  queryContent('blog').find()
+)
+const posts = computed(() =>
+  [...(rawPosts.value ?? [])].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
 )
 </script>
 
