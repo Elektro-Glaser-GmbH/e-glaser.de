@@ -55,6 +55,8 @@ ul, ol { padding-left: 1.25rem; margin-bottom: 1rem; }
 
 strong { color: $secondary; font-weight: 600; }
 
+hr { border: none; height: 1px; background: rgba($secondary, .12); margin-block: 3rem; }
+
 // ── Layout ────────────────────────────────────────────────────────────────────
 .site-wrapper { display: flex; flex-direction: column; min-height: 100vh; }
 
