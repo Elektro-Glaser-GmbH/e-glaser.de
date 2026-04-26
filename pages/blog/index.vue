@@ -4,13 +4,11 @@ useSeoMeta({
   description: 'Tipps, Einblicke und Neuigkeiten rund um Erneuerbare Energien, Smart Home und Elektrotechnik von Elektro-Glaser.',
 })
 
-const { data: posts } = await useAsyncData('blog-posts', async () => {
+const { data: posts } = await useAsyncData('blog-posts-v2', async () => {
   const items = await queryContent('blog').find()
-  return items.sort((a: any, b: any) => {
-    const da = new Date(a.date).getTime() || 0
-    const db = new Date(b.date).getTime() || 0
-    return db - da
-  })
+  return items.sort((a: any, b: any) =>
+    String(b.date).localeCompare(String(a.date))
+  )
 })
 </script>
 
