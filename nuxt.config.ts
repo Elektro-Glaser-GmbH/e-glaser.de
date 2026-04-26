@@ -3,7 +3,13 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-04-26',
   devtools: { enabled: true },
 
-  modules: ['@nuxt/content'],
+  modules: ['@nuxt/content', 'nuxt-gtag'],
+
+  gtag: {
+    // Script wird erst nach expliziter Zustimmung geladen (DSGVO)
+    initMode: 'manual',
+    id: process.env.GOOGLE_ANALYTICS_MEAS_ID || 'G-XXXXXXXXXX',
+  },
 
   app: {
     head: {
