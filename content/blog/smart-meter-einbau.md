@@ -1,7 +1,7 @@
 ---
 title: "Endlich wird auch meine Welt ein wenig smarter..."
 description: "Montag, der 7.7.2025 – mein Smart Meter wird eingebaut. Ein persönlicher Erfahrungsbericht über den Einbau, was iMSys und mME bedeuten, und warum Deutschland ewig braucht."
-date: "2025-07-08"
+date: 2025-07-08
 categories: ["Smart Meter", "Energiewende", "Erfahrungsbericht"]
 author: "Daniel Glaser"
 ---

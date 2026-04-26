@@ -1,7 +1,7 @@
 ---
 title: "Willkommen bei Elektro-Glaser – Wir elektrisieren Erlangen und Umgebung!"
 description: "Wir sind ein inhabergeführter Elektrobetrieb aus Erlangen – mit Leidenschaft für zukunftsfähige Technik, klare Kommunikation und nachhaltige Lösungen."
-date: "2025-06-28"
+date: 2025-06-28
 categories: ["Allgemein", "Über uns"]
 author: "Daniel Glaser"
 ---

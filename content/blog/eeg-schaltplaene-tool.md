@@ -1,7 +1,7 @@
 ---
 title: "Endlich Durchblick im Schaltplan-Dschungel: Mein kleiner EEG-Helfer"
 description: "Ein kleines Streamlit-Tool visualisiert EEG-Schaltpläne und Messkonzepte auf Knopfdruck – ideal für PV-Planung und Anmeldungen."
-date: "2025-12-23"
+date: 2025-12-23
 categories: ["Tools", "PV", "EEG", "Automatisierung"]
 author: "Daniel Glaser"
 ---

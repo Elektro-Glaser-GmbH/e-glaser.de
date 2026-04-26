@@ -126,7 +126,7 @@ strong { color: $secondary; font-weight: 600; }
   }
 
   &:hover {
-    color: darken($secondary, 5%);
+    color: #07101e;
     text-decoration: none;
     &::after { transform: scaleX(1); }
   }
@@ -154,7 +154,7 @@ strong { color: $secondary; font-weight: 600; }
   transition: background $transition, transform $transition;
 
   &:hover {
-    background: lighten($secondary, 10%);
+    background: #253352;
     color: #fff;
     text-decoration: none;
     transform: translateY(-1px);
@@ -276,7 +276,7 @@ strong { color: $secondary; font-weight: 600; }
   padding: 0.85rem 2rem;
 
   &:hover {
-    background: lighten($primary, 4%);
+    background: #f0bb15;
     box-shadow: 0 6px 28px rgba($primary, .45);
     color: $secondary;
   }
@@ -288,7 +288,7 @@ strong { color: $secondary; font-weight: 600; }
   color: $secondary;
   box-shadow: 0 2px 12px rgba($primary, .25);
 
-  &:hover { background: lighten($primary, 4%); color: $secondary;
+  &:hover { background: #f0bb15; color: $secondary;
             box-shadow: 0 4px 20px rgba($primary, .35); }
 }
 
@@ -306,7 +306,7 @@ strong { color: $secondary; font-weight: 600; }
   background: $secondary;
   color: #fff;
 
-  &:hover { background: lighten($secondary, 8%); color: #fff; }
+  &:hover { background: #1d2b47; color: #fff; }
 }
 
 // Alias für Kompatibilität
@@ -326,7 +326,7 @@ strong { color: $secondary; font-weight: 600; }
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: darken($primary, 12%);
+  color: #c49100;
   background: rgba($primary, .12);
   border: 1px solid rgba($primary, .25);
   padding: 0.3rem 0.85rem;
@@ -601,7 +601,7 @@ strong { color: $secondary; font-weight: 600; }
     margin: 0.4rem 0 0.6rem;
 
     a { color: $secondary; transition: color $transition;
-        &:hover { color: darken($primary, 10%); text-decoration: none; } }
+        &:hover { color: #c79700; text-decoration: none; } }
   }
 
   p { color: $muted; font-size: 0.92rem; margin-bottom: 1rem; }
@@ -620,7 +620,7 @@ strong { color: $secondary; font-weight: 600; }
 
 .blog-tag {
   background: rgba($primary, .1);
-  color: darken($primary, 15%);
+  color: #b88900;
   border: 1px solid rgba($primary, .2);
   border-radius: 2rem;
   padding: 0.1rem 0.6rem;
@@ -651,7 +651,7 @@ strong { color: $secondary; font-weight: 600; }
 
   p, li { color: #3a2c00; }
 
-  a { color: darken($primary, 10%); border-bottom: 1px solid rgba($primary, .3);
+  a { color: #c79700; border-bottom: 1px solid rgba($primary, .3);
       &:hover { border-bottom-color: $primary; } }
 
   hr { border: none; height: 1px; background: rgba($secondary, .08); margin-block: 2.5rem; }

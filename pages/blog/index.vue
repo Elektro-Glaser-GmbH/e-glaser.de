@@ -6,7 +6,7 @@ useSeoMeta({
 
 const { data: posts } = await useAsyncData('blog-posts', () =>
   queryContent('blog')
-    .sort({ date: -1 })
+    .sort({ date: -1, $numeric: true })
     .find()
 )
 </script>
