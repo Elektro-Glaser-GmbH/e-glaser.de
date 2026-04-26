@@ -1,6 +1,15 @@
+# Quarto (alter Build)
 _site/
 .quarto/
-*.xml
-
 /.quarto/
 **/*.quarto_ipynb
+
+# Nuxt
+.nuxt/
+.output/
+node_modules/
+dist/
+
+# Logs
+*.log
+
